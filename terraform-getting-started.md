@@ -1,5 +1,5 @@
 # Getting Started with Terraform
-Terraform is the most popular tool for defining and provisioning infrastructure as code (IaC).  In this tutorial you'll use Terraform to provision a NGINX web server running in a Docker container.
+Terraform is the most popular tool for defining and provisioning infrastructure as code (IaC).  In this tutorial, you'll use Terraform to provision a NGINX web server running in a Docker container.
 
 ## Prerequisites
 
@@ -7,7 +7,7 @@ Terraform is the most popular tool for defining and provisioning infrastructure 
 - [Docker](https://www.docker.com/)
 
 ## Install Terraform
-To download and install Terraform for your OS and architecture, go to [Terraform.io](https://www.terraform.io/downloads.html).
+Download and install the Terraform for your OS and architecture at [Terraform.io](https://www.terraform.io/downloads.html).
 
 With Terraform installed, you can setup your project.
 
@@ -78,7 +78,7 @@ rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 ```
 
-If it ran successfully, you'll see the message `Terraform has been successfully initialized`.  You can now provision the resources using the `apply` command.
+If it ran successfully, you'll see the message `Terraform has been successfully initialized`.  You can now provision resources using the `apply` command.
 
 ## Provision infrastructure
 When you run the `terraform apply` command, a plan is generated showing you the potential resource changes.
@@ -315,7 +315,7 @@ curl: (7) Failed to connect to localhost port 80: Connection refused
 
 ## Next steps
 
-In this tutorial, you used Terraform to provision and then destroy a NGINX web server running in Docker.
+In this tutorial, you successfully used Terraform to provision and then destroy a NGINX web server running in Docker!
 
 To learn more about the Terraform configuration language, please visit the following documentation pages.
 
