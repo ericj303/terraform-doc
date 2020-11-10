@@ -317,7 +317,7 @@ curl: (7) Failed to connect to localhost port 80: Connection refused
 
 In this tutorial, you successfully used Terraform to provision and then destroy a NGINX web server running in Docker!
 
-To learn more about the Terraform configuration language, please visit the following documentation pages.
+To learn more about using Terraform and it's configuration language, please visit the following documentation pages.
 
 [Terraform Tutorials](https://learn.hashicorp.com/terraform)
 
